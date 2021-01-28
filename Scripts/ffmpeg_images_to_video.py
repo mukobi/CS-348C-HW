@@ -8,7 +8,7 @@ def main():
     
     parser.add_argument('-f', '-r', '--framerate', default='24', help='Output frame rate (default: 24)')
     parser.add_argument('-b', '--bitrate', default='4', help='Output bit rate in Mbps (default: 4)')
-    parser.add_argument('-e', '--extension', default='mp4', help='Output file extension (default: mp4)')
+    parser.add_argument('-e', '--extension', default='mov', help='Output file extension (default: mp4)')
     parser.add_argument('-p', '--promptoverwrite', action='store_false', help='Prompt before overwriting an existing file (default: false)')
     args = parser.parse_args()
     
